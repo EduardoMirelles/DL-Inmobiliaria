@@ -1,0 +1,142 @@
+body {
+	background: rgb(255, 255, 255);
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+.auto {
+	max-width: 20px;
+	max-height: 20px;
+}
+
+.servicios_ {
+	max-width: 100px;
+	max-height: 100px;
+}
+
+.galery_ {
+	max-width: 1000px;
+	max-height: 700px;
+}
+
+.ciudad_ {
+	max-height: 600px;
+	max-width: 1500px;
+}
+
+.enlaces_contacto {
+	max-width: 200px;
+	max-height: 200px;
+}
+
+.enlace_insta {
+	max-width: 110px;
+	max-height: 110px;
+}
+
+.enlace_in {
+	max-width: 110px;
+	max-height: 110px;
+}
+
+.blog_img {
+	width: 650px;
+	height: 420px;
+}
+
+@media screen and (max-width: 1600px){
+	.blog_img {
+		width: 600px;
+		height: 380px;
+	}
+}
+
+	@media screen and (max-width: 1400px){
+		.blog_img {
+			width: 550px;
+			height: 330px;
+		
+		}
+	}	
+
+		@media screen and (max-width: 1300px){
+			.blog_img {
+				width: 500px;
+				height: 280px;
+			}
+		}
+		@media screen and (max-width: 1200px){
+			.blog_img {
+				width: 500px;
+				height: 280px;}
+			}
+
+#nav_:hover{
+	text-decoration-line: underline;
+}
+
+/* MEDIAQUERIES */
+/* Dispositivo sm */
+@media screen and (max-width: 576px){
+	.redes-sociales .icono {
+		width: 50px;
+		height: 50px;
+	}
+
+	.redes-sociales .icono svg {
+		width: 25px;
+		height: 25px;
+	}
+
+}
+
+/* Dispositivo md */
+@media screen and (max-width: 768px){}
+
+/* Dispositivo lg */
+@media screen and (max-width: 992px){
+	header .logo {
+		height: 76px;
+	}
+
+	header .menu {
+		min-height: 76px;
+	}
+
+	header .menu a {
+		width: 100%;
+	}
+
+}
+
+/* Dispositivo xl */
+@media screen and (max-width: 1200px){}
+
+/* Dispositivo xxl */
+@media screen and (max-width: 1400px){}
+
+
+
+/* COMPRAR */
+
+#auto_scroll {
+	width: 500px;
+}
+
+@media screen and (max-width: 1200px ) {
+	#auto_scroll{
+		width:400px
+	}
+}
+
+@media screen and (max-width: 992px ) {
+	#auto_scroll{
+		width:300px
+	}
+}
+
+@media screen and (max-width: 767px ) {
+	#auto_scroll{
+		width:200px
+	}
+}
