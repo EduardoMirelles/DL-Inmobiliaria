@@ -40,17 +40,17 @@
       <hr>
 		<!-- Slider -->
 		<div class="row slider">
-			<div class="col-md-12 col-lg-8 mt-4">
+			<div class="col-md-12 col-lg-8 mt-4 mb-0">
 				<div class="carousel slide" data-bs-ride="carousel" id="slider">
 					<div class="carousel-inner">
 						<div class="galery_ carousel-item active">
-							<img class="d-block w-100" src="../img/rojo.png" alt="imbobiliaria">
+							<img class="d-block w-100" src="../img/Calle Heriberto Frías 909/chf_1.jpg" alt="imbobiliaria">
 						</div>
 						<div class="galery_ carousel-item">
-							<img class="d-block w-100" src="../img/azul.png" alt="imbobiliaria">
+							<img class="d-block w-100" src="../img/Calle Heriberto Frías 909/chf_2.jpg" alt="imbobiliaria">
 						</div>
 						<div class="galery_ carousel-item">
-							<img class="d-block w-100" src="../img/verde.png" alt="imbobiliaria">
+							<img class="d-block w-100" src="../img/Calle Heriberto Frías 909/chf_3.jpg" alt="imbobiliaria">
 						</div>
 					</div>
 
@@ -87,12 +87,11 @@
 					</div>
 				</div>
 			</div>
-      <div class="col-lg-4 col-md-12 mt-3">
+      <div class="col-lg-4 col-md-12 mt-3 mb-0">
         <div class="card pt-2 pb-2">
-          <h1 class="text-end bg-primary ms-auto me-3 mt-3 rounded-3 bg-opacity-50 p-1">$1,000,000.00</h1>
+          <h3 class="text-end bg-primary ms-auto me-3 mt-3 rounded-3 bg-opacity-50 p-1">$1,000,000.00</h3>
           <br>
-          <br>
-          <h3 class="ms-3 text-decoration-none"><b>Direcion:</b></h3> 
+          <h4 class="ms-3 text-decoration-none"><b>Direcion:</b></h4> 
           <p class="me-3 ms-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id modi quisquam repudiandae!</p>
           <br>
           <br>
@@ -117,18 +116,14 @@
                 <p>#</p>
              </div>
              <br>
-             <br>
-             <br>
-             <br>
-             <h3><b>Amenidades</b></h3>
+             <h4><b>Amenidades</b></h4>
              <ul class="ms-3">
                <li class="mt-3">Lorem, ipsum dolor.</li>
                <br>
                <li>Lorem, ipsum dolor.</li>
                <br>
                <li>Lorem, ipsum dolor.</li>
-               <br>
-               <li>Lorem, ipsum dolor.</li>
+             
              </ul>
              <div class="col-12 d-flex justify-content-end">
               <a href="#form_" class="btn btn-lg btn-primary mt-3 mb-2 ">Agendar Cita</a>  
@@ -139,8 +134,50 @@
 		</div>	
 	</header>
 <main>
-  <div class="container">
-    <div class="row mt-5">
+
+ <div class="container">
+   <div class="row mt-3 mb-5">
+     <div class="col-12">
+       <nav>
+         <div class="nav nav-tabs" id="nav-tab" role="tablist">
+
+           <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab"
+           data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Descripción General
+          </button>
+
+          <button class="nav-link" id="nav-porfile-tab" data-bs-toggle="tab"
+           data-bs-target="#nav-porfile" type="button" role="tab" aria-controls="nav-porfile" aria-selected="false">Descripción de la Zona
+          </button>
+
+         </div>
+       </nav>
+
+       <div class="tab-content" id="nav-tabContent">
+         <div class="tab-pane fade show active p-3" id="nav-home" role="tabpanel" aria-label="nav-home-tab">
+          <h3 class="title mt-3 ms-3">
+            <b>Descripción General:</b>
+          </h3>
+          <p class="ms-3 mt-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cupiditate earum suscipit veritatis nemo eaque nesciunt eum consequatur voluptatem 
+            error quam consequuntur, nam optio pariatur exercitationem vitae, maxime numquam iure!
+          </p>
+         </div>
+         <div class="tab-pane fade show  p-3" id="nav-porfile" role="tabpanel" aria-label="nav-porfile-tab">
+          <h3 class="title mt-3 ms-3">
+            <b>Descripción de la Zona:</b>
+          </h3>
+          <p class="ms-3 mt-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non cupiditate earum suscipit veritatis nemo eaque nesciunt eum consequatur voluptatem 
+            error quam consequuntur, nam optio pariatur exercitationem vitae, maxime numquam iure!
+          </p>
+         </div>
+       </div>
+     </div>
+   </div>
+ </div>
+
+  <div id="descripcion_general" class="container d-none">
+    <div class="row mt-0">
       <div class="col-lg-8 col-md-12">
         <div class="card">
           <div class="card-title">
@@ -159,8 +196,8 @@
           </div>
         </div>
       </div>
+
       <div class="col-md-4 col-12 mt-2 ms-auto me-auto">
-        
       </div>
     </div>
   </div>
