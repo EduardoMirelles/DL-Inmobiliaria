@@ -1,0 +1,29 @@
+{
+  "name": "dl-inmobiliaria",
+  "version": "1.0.0",
+  "description": "Proyecto Diana",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/scss:build/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMirelles/DL-Inmobiliaria.git"
+  },
+  "author": "Eduardo Mireles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMirelles/DL-Inmobiliaria/issues"
+  },
+  "devDependencies": {
+    "dart-sass": "^1.25.0",
+    "gilp": "^0.0.10",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^5.1.0",
+    "i": "^0.3.7",
+    "node-sass": "^7.0.1"
+  },
+  "dependencies": {
+    "sass": "^1.49.9"
+  }
+}
