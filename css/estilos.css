@@ -1,7 +1,34 @@
 body {
 	background: rgb(255, 255, 255);
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'open sans', sans-serif;
 }
+
+/* Encabezados */
+
+.texto_titulos {
+    color: grey;
+	font-size: 50px;
+	
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 768px) {
+     
+	.texto_titulos {
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (max-width: 446px) {
+     
+	.texto_titulos {
+		font-size: 30px;
+	}
+
+}
+
+/* Imagenes de cards de propiedades */
 
 .img_card {
 	max-width: 100%;
@@ -71,12 +98,14 @@ body {
 
 }
 
-
+/* Icono auto (ELIMINAR) */
 
 .auto {
-	max-width: 20px;
-	max-height: 20px;
+	max-width: 25px;
+	max-height: 25px;
 }
+
+/* Iconos cards de Propiedades */
 
 .recamara_icon {
 	max-width: 30px;
@@ -90,19 +119,33 @@ body {
 	
 }
 
+/* Cards */
+
+.precio_card {
+	text-decoration: none;
+	color:white;
+	background: rgb(162, 63, 255);
+	border-radius: 10px;
+	padding: 8px;
+	display: inline-block;
+}
+
+.boton_card {
+	width: 260px;
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.boton_card {
+        width: 200px;
+	}
+
+}
+
+/* Galeria dento de los ID de producto */
+
 .galery_id:hover {
      opacity: 50%;
-}
-
-.servicios_ {
-	max-width: 100px;
-	max-height: 100px;
-}
-
-.galery_ {
-	max-width: 1000px;
-	max-height: 600px;
-	margin-top: 60px;
 }
 
 @media screen and (max-width: 992px) {
@@ -113,10 +156,54 @@ body {
 
 }
 
-.ciudad_ {
+.galery_ {
+	max-width: 1000px;
 	max-height: 600px;
-	max-width: 1500px;
+	margin-top: 60px;
 }
+
+/* Por que elegir nuestros servicios */
+
+.servicios {
+	margin-top: 15px;
+}
+
+.servicios_investigacion {
+       width: 200px;
+}
+
+.texto_servicios_legal {
+	margin-top: 30px;
+}
+
+.texto_investigacion {
+	margin-top: 32.7px;
+	color: aliceblue;
+}
+
+.texto_acompañamiento {
+	margin-top: 50.8px;
+}
+
+.texto_crediticio {
+	margin-top: 54.3px;
+}
+
+@media screen and (max-width: 1400px) {
+     
+	.texto_legal {
+		margin-top: -100px;
+	}
+
+}
+
+.img_investigacion {
+	width: 220px;
+	margin-top: 38px;
+	margin-right: 100px;
+}
+
+/* Contacto */
 
 .enlaces_contacto {
 	max-width: 200px;
@@ -137,6 +224,8 @@ body {
 	width: 650px;
 	height: 420px;
 }
+
+/* Blog */
 
 @media screen and (max-width: 1600px){
 	.blog_img {
@@ -165,12 +254,13 @@ body {
 				height: 280px;}
 			}
 
+/* Menu Nav */			
+
 #nav_:hover{
 	text-decoration-line: underline;
 }
 
-/* MEDIAQUERIES */
-/* Dispositivo sm */
+
 @media screen and (max-width: 576px){
 	.redes-sociales .icono {
 		width: 50px;
