@@ -1,9 +1,14 @@
-function tarea (done) {
+const { src, dest } = require('gulp');
+const sass = require('glup-sass') (require('sass'));
 
-    console.log("Desde la primer tarea");
+function css(done) {
+       
+    src('src/scss/app.scss')
+       .pipe(sass())
+       .pipe(dest('build/css'))
 
-    done()
 
-}
+       done();
+};
 
-exports.nuevatarea = tarea;
+exports.css = css;
