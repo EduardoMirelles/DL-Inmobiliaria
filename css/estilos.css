@@ -1,5 +1,5 @@
 body {
-	background: rgb(255, 255, 255);
+	background-color: white;
 	font-family: 'open sans', sans-serif;
 }
 
@@ -27,6 +27,678 @@ body {
 	}
 
 }
+
+/* Mapa de Compras */
+
+.titulo_inv_seg {
+	margin-top: 50px;
+	font-size: 60px;
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.titulo_inv_seg {
+		font-size: 50px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+     
+	.titulo_inv_seg {
+		font-size: 40px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+     
+	.titulo_inv_seg {
+		font-size: 30px;
+	}
+
+}
+
+/*Agenda tu Cita*/
+
+.mapa_compras {
+	margin-top: 60px;
+}
+
+.titulos_map_cita {
+	color: blueviolet;
+	font-size: 50px;
+}
+
+.titulos_map_numero_1 {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	padding: 10px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 70px;
+	
+}
+
+@media screen and (max-width: 1400px) {
+     
+	.titulos_map_cita {
+		font-size: 50px;
+		padding-top: 0px;
+	}
+
+	.titulos_map_numero_1 {
+	  width: 80px;
+	  height: 80px;
+	  font-size: 50px;
+	  padding-left: 25px;
+	  padding-bottom: 60px;
+	  padding-top: 0;
+	  margin-bottom: 20px;
+	  margin-top: 50px;
+  }
+
+	.img_map {
+		margin-top: 60px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.titulos_map_cita {
+		font-size: 40px;
+		padding-top: 0px;
+	}
+
+	.titulos_map_numero_1 {
+	  width: 80px;
+	  height: 80px;
+	  font-size: 40px;
+	  padding-left: 28px;
+	  padding-bottom: 60px;
+	  padding-top: 10px;
+	  margin-bottom: 20px;
+	  margin-top: 50px;
+  }
+
+	.img_map {
+		margin-top: 60px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+     
+      .titulos_map_cita {
+		  font-size: 35px;
+		  padding-top: 0px;
+	  }
+
+	  .titulos_map_numero_1 {
+		width: 50px;
+		height: 50px;
+		font-size: 30px;
+		padding-left: 16px;
+		padding-bottom: 50px;
+		padding-top: 0;
+		margin-bottom: 20px;
+		margin-top: 20px;
+	}
+
+	  .img_map {
+		  margin-top: 60px;
+	  }
+
+}
+
+@media screen and (max-width: 768px) {
+     
+	.titulos_map_cita {
+		font-size: 30px;
+	}
+
+	.titulos_map_numero_1 {
+	  width: 45px;
+	  height: 45px;
+	  font-size: 35px;
+	  padding-left: 16px;
+	  padding-bottom: 50px;
+	  padding-top: 0;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+     
+	.titulos_map_cita {
+		font-size: 35px;
+	}
+
+	.titulos_map_numero_1 {
+	  margin-top: 0px;
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 19px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 535px) {
+     
+	.titulos_map_cita {
+		font-size: 25px;
+	}
+
+	.titulos_map_numero_1 {
+	  margin-top: 0px;
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 19px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+.mapa_compras {
+	margin-top: 60px;
+}
+
+.titulos_map {
+	color: blueviolet;
+	font-size: 40px;
+}
+
+/*Propuesta*/
+
+.mapa_compras {
+	margin-top: 60px;
+}
+
+.titulos_map_propuesta {
+	color: blueviolet;
+	font-size: 50px;
+}
+
+.img_map_propuesta {
+	margin-top: -80px;
+}
+
+.titulos_map_numero_2 {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	padding: 10px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: -50px;
+	
+}
+
+@media screen and (max-width: 1400px) {
+     
+	.titulos_map_numero_2 {
+		margin-top: 40px;
+	}
+
+	.titulos_map_numero_2 {
+		width: 80px;
+		height: 80px;
+		margin-top: -70px;
+		font-size: 40px;
+		padding-top: 8px;
+		padding-left: 28px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.titulos_map_numero_2 {
+		width: 80px;
+		height: 80px;
+		margin-top: -40px;
+		font-size: 40px;
+		padding-top: 8px;
+		padding-left: 28px;
+
+	}
+
+	.titulos_map_propuesta {
+		font-size: 35px;
+	}
+
+	.img_map_propuesta {
+		margin-top: -30px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+     
+	.titulos_map {
+		font-size: 30px;
+	}
+
+	.titulos_map_numero_2 {
+		margin-top: 0px;
+	  width: 60px;
+	  height: 60px;
+	  font-size: 30px;
+	  padding-left: 22px;
+	  padding-bottom: -2px;
+	  padding-top: 1;
+	  
+  }
+
+	.img_map_propuesta {
+		margin-top: 50px;
+	}
+
+}
+
+@media screen and (max-width: 768px) {
+     
+	.titulos_map_propuesta {
+		font-size: 30px;
+	}
+
+	.titulos_map_numero_2 {
+	  width: 45px;
+	  height: 45px;
+	  font-size: 30px;
+	  padding-left: 20px;
+	  padding-right: -15px;
+	  padding-bottom: 50px;
+	  padding-top: 1.5px;
+	  margin-top: -40px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+     
+	.titulos_map_propuesta {
+		font-size: 25px;
+	}
+
+	.titulos_map_numero_2 {
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 18px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  margin-top: -20px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 361px) {
+     
+	.img_map {
+		margin-top: -500px;
+	}
+
+}
+
+
+/*Documentos*/
+
+.titulos_map_numero_3 {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	padding: 10px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	
+}
+
+.titulos_map_documentos {
+	color: blueviolet;
+	font-size: 50px;
+}
+
+@media screen and (max-width: 1400px) {
+     
+	.titulos_map_numero_3 {
+		margin-top: -50px;
+	}
+
+	.titulos_map_documentos {
+		font-size: 35px;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.titulos_map_numero_3 {
+		font-size: 40px;
+		width: 80px;
+		height: 80px;
+		padding-left: 28px;
+	}
+
+	.titulos_map_docuemntos {
+		font-size: 40px;
+	}
+
+	.img_map_documentos {
+		margin-top: 10px;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+     
+
+	.titulos_map_numero_3 {
+	  width: 45px;
+	  height: 45px;
+	  font-size: 35px;
+	  padding-left: 29px;
+	  padding-bottom: 54px;
+	  padding-top: 1;
+	  margin-top: 10px;
+	  
+  }
+
+  .titulos_map_docuementos {
+	  font-size: 30px;
+  }
+
+  .img_map_documentos {
+	  margin-top: 80px;
+  }
+
+
+}
+
+@media screen and (max-width: 768px) {
+     
+	.titulos_map_documentos {
+		font-size: 25px;
+	}
+
+	.titulos_map_numero_3 {
+	  width: 45px;
+	  height: 45px;
+	  font-size: 30px;
+	  padding-left: 20px;
+	  padding-right: -15px;
+	  padding-bottom: 50px;
+	  padding-top: 1.5px;
+	  margin-top: -40px;
+	  
+  }
+
+	.img_map_documentos {
+		margin-top: 25px;
+	}
+
+}
+
+@media screen and (max-width: 560px) {
+     
+	.titulos_map_documentos {
+		font-size: 25px;
+	}
+
+	.titulos_map_numero_3 {
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 18px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  margin-top: -20px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 451px) {
+     
+	.titulos_map_documentos {
+		font-size: 20px;
+	}
+
+	.titulos_map_numero_3 {
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 18px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  margin-top: -20px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+@media screen and (max-width: 380px) {
+     
+	.titulos_map_documentos {
+		font-size: 18px;
+	}
+
+	.titulos_map_numero_3 {
+	  width: 50px;
+	  height: 50px;
+	  font-size: 30px;
+	  padding-left: 18px;
+	  padding-bottom: 40px;
+	  padding-top: 1px;
+	  margin-top: -20px;
+	  
+  }
+
+	.img_map {
+		margin-top: 80px;
+	}
+
+}
+
+/*Contrato*/
+
+.titulos_map_numero_4 {
+	width: 100px;
+	height: 100px;
+	font-size: 50px;
+	margin-bottom: 10px;
+	background-color: blueviolet;
+	color: white;
+	border-radius: 50px;
+	display: flex;
+	padding: 10px 35px;
+	margin-left: auto;
+	margin-right: auto;
+	
+}
+
+.titulos_map_contrato {
+	font-size: 50px;
+	color: blueviolet;
+}
+
+
+@media screen and (max-width: 1400px) {
+     
+	.titulos_map_numero_4 {
+		width: 80px;
+		height: 80px;
+		margin-top: -30px;
+		font-size: 40px;
+		padding-top: 10px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.titulos_map_contrato {
+		font-size: 40px;
+		color: blueviolet;
+	}
+
+}
+
+@media screen and (max-width: 1200px) {
+     
+	.titulos_map_numero_4 {
+		width: 80px;
+		height: 80px;
+		margin-top: -30px;
+		font-size: 40px;
+		padding-top: 10px;
+		padding-right: 25px;
+		padding-left: 25px;
+	}
+
+	.titulos_map_contrato {
+		font-size: 40px;
+		color: blueviolet;
+	}
+
+}
+
+@media screen and (max-width: 992px) {
+      
+	.img_map_contrato {
+		margin-top: 30px;
+	} 
+
+	.titulos_map_contrato {
+		font-size: 35px;
+	}
+
+	.titulos_map_numero_4 {
+		width: 60px;
+		height: 60px;
+		margin-top: -30px;
+		font-size: 30px;
+		padding-top: 6px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+  }
+
+  @media screen and (max-width: 768px) {
+      
+	.img_map_contrato {
+		margin-top: 30px;
+	} 
+
+	.titulos_map_contrato {
+		font-size: 30px;
+	}
+
+	.titulos_map_numero_4 {
+		width: 50px;
+		height: 50px;
+		margin-top: -60px;
+		font-size: 35px;
+		padding-top: 1px;
+		padding-left: 15px;
+	}
+  }
+
+  @media screen and (max-width: 560px) {
+      
+	.img_map_contrato {
+		margin-top: 30px;
+	} 
+
+	.titulos_map_contrato {
+		font-size: 25px;
+	}
+
+	.titulos_map_numero_4 {
+		width: 50px;
+		height: 50px;
+		margin-top: -60px;
+		font-size: 35px;
+		padding-top: 0px;
+		padding-left: 14px;
+		margin-top: -40px;
+	}
+  }
+
+  @media screen and (max-width: 380px) {
+      
+	.img_map_contrato {
+		margin-top: 30px;
+	} 
+
+	.titulos_map_contrato {
+		font-size: 18px;
+	}
+
+	.titulos_map_numero_4 {
+		width: 50px;
+		height: 50px;
+		margin-top: -60px;
+		font-size: 35px;
+		padding-top: 0px;
+		padding-left: 14px;
+		margin-top: -40px;
+	}
+  }
 
 /* Imagenes de cards de propiedades */
 
@@ -96,6 +768,21 @@ body {
 		height: 170px;
 	}
 
+}
+
+/* Encabezados */
+
+.formulario_contacto {
+	background-color: rgb(162, 133, 255);
+	color: aliceblue;
+	border-radius: 20px;
+}
+
+/* Encabezados */
+
+.mobiliario_ {
+	width: 100%;
+	height: 600px;
 }
 
 /* Icono auto (ELIMINAR) */
@@ -324,3 +1011,4 @@ body {
 		width:200px
 	}
 }
+
