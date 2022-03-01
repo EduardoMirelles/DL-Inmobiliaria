@@ -17,8 +17,8 @@
   <header>
     <nav id="nav_bar" class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container mt-5">
-          <a class="navbar-brand fs-3" href="index.html">Diana Ledesma</a>
-          <a class="navbar-brand ms-3 mt-2 me-auto" href="index.html">Asesora Inmobiliaria</a>
+          <a class="navbar-brand fs-3" href="index.html"> <img class="logo_nav me-3" src="/img/Logo.png" alt="">DL</a>
+          <a class="navbar-brand ms-3 mt-2 me-auto" href="index.html"><span class="Diana_Ledesma">Asesora Inmobiliaria</span></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -90,21 +90,22 @@
     <div class="container formulario_contacto">
         <div class="row mt-3">
             <div class="col ">
-                <form action="">
+                <form action="https://formspree.io/f/xknybgzw"
+                method="POST">
                     <div class="row">
                         <div class="col-12 col-md-6 mb-3 mt-5">
                           <label for="nombre" class="form-label">Nombre</label>  <!--Utilizamos un Label para pedir el nombre del usuario...se debe usar lla etiqueta "form-label"-->
-                          <input type="text" class="form-control" placeholder="John Doe" id="nombre">
+                          <input type="text" class="form-control" placeholder="" id="nombre" name="name">
                         
                          </div>
                    <div class="col-12 col-md-6 mb-3 mt-5">
                    <label for="correo" class="form-label">Correo</label> <!--Utilizamos un Label para pedir el correo del usuario-->
-                   <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correo">
+                   <input type="email" class="form-control" placeholder="ejemplo@correo.com" id="correo" name="_replyto">
                     </div>
                     
                     <div class="col-12 col-md-6 mb-3">
                         <label for="mensaje" class="form-label">Mensaje</label>
-                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="Tel"></textarea>
+                        <textarea name="mensaje" id="mensaje" class="form-control" placeholder="" name="message"></textarea>
                     </div>
                     <div class="col-12 col-sm-6 mb-3">
                        <div class="row">
@@ -133,11 +134,6 @@
                        <div class="row">
                            <div class="col-12 d-flex justify-content-center">
                                <div>
-                                   <div class="form-check mb.3">
-                                       <input type="checkbox" name="terminos" id="terminos" class="form-check-input">
-                                       <label for="terminos" class="form-check-label">Acepto los terminos y condiciones</label>
-                                       <br>
-                                   </div>
                                    <button type="submit" class="col-12 btn btn-primary mb-5 mt-2">Enviar</button>
                                </div>
                            </div>

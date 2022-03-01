@@ -3,6 +3,20 @@ body {
 	font-family: 'open sans', sans-serif;
 }
 
+.logo_nav {
+   max-width: 70px;
+   max-height: 70px;
+}
+
+@media screen and (max-width: 460px) {
+     
+	.Diana_Ledesma {
+		display: none;
+	}
+
+}
+
+
 /* Encabezados */
 
 .texto_titulos {
@@ -866,6 +880,16 @@ body {
 .texto_investigacion {
 	margin-top: 32.7px;
 	color: aliceblue;
+}
+
+@media screen and (max-width: 403px){
+	.texto_investigacion {
+		font-size: 18PX;
+	}
+
+	.texto_acompañamiento {
+		font-size: 17PX;
+	}
 }
 
 .texto_acompañamiento {
