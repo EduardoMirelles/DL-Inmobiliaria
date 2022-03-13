@@ -882,6 +882,7 @@ body {
 	color: aliceblue;
 }
 
+
 @media screen and (max-width: 403px){
 	.texto_investigacion {
 		font-size: 18PX;
@@ -889,6 +890,22 @@ body {
 
 	.texto_acompañamiento {
 		font-size: 17PX;
+	}
+}
+
+.texto_acompañamiento {
+	margin-top: 50.8px;
+}
+
+.texto_crediticio {
+	margin-top: 54.3px;
+}
+
+@media screen and (max-width: 446px){
+
+	.texto_acompañamiento {
+		font-size: 16PX;
+		font-weight: bold;
 	}
 }
 
