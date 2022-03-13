@@ -961,9 +961,24 @@ body {
 		}
 		@media screen and (max-width: 1200px){
 			.blog_img {
-				width: 500px;
-				height: 280px;}
+				width: 450px;
+				height: 250px;}
 			}
+			@media screen and (max-width: 1125px){
+				.blog_img {
+					width: 420px;
+					height: 230px;}
+				}
+				@media screen and (max-width: 1050px){
+					.blog_img {
+						width: 400px;
+						height: 210px;}
+					}
+					@media screen and (max-width: 427px){
+						.blog_img {
+							width: 300px;
+							height: 150px;}
+						}
 
 /* Menu Nav */			
 
