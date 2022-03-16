@@ -16,6 +16,17 @@ body {
 
 }
 
+.nav_title {
+	font-family:Georgia, 'Times New Roman', Times, serif ;
+	color: gray;
+}
+
+.Diana_Ledesma {
+	color: gray;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 10px;
+}
+
 
 /* Encabezados */
 
