@@ -1,0 +1,22 @@
+{
+  "name": "dl-inmobiliaria",
+  "version": "1.0.0",
+  "description": "Web Inmobiliaria",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EduardoMirelles/DL-Inmobiliaria.git"
+  },
+  "author": "E.Mireles",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EduardoMirelles/DL-Inmobiliaria/issues"
+  },
+  "homepage": "https://github.com/EduardoMirelles/DL-Inmobiliaria#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3"
+  }
+}
