@@ -8,6 +8,10 @@ body {
    max-height: 70px;
 }
 
+.nav_ :hover {
+        background-color: red;
+}
+
 @media screen and (max-width: 460px) {
      
 	.Diana_Ledesma {
@@ -1011,7 +1015,9 @@ body {
 /* Menu Nav */			
 
 #nav_:hover{
-	text-decoration-line: underline;
+	background: rgb(193, 127, 255);
+	border-radius: 20%;
+	color: white;
 }
 
 
