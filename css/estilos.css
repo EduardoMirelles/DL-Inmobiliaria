@@ -12,6 +12,10 @@ body {
         background-color: red;
 }
 
+.nav_:active {
+      color: red;
+}
+
 @media screen and (max-width: 460px) {
      
 	.Diana_Ledesma {
@@ -858,10 +862,17 @@ body {
 
 }
 
-/* Galeria dento de los ID de producto */
+/* Galeria dentro de los ID de producto */
+
+.galery_id {
+	transform: all .3s ease;
+	opacity: 90%;
+}
 
 .galery_id:hover {
-     opacity: 50%;
+
+     opacity: 110%;
+	 transform: scale(1.1);
 }
 
 @media screen and (max-width: 992px) {
