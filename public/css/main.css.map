@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "",
-    "sources": [
-        "../../../Practica-SASS/src/main.scss"
-    ],
-    "names": [],
-    "file": "main.css"
-}

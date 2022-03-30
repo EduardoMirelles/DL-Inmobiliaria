@@ -1,13 +1,15 @@
-
 $primary: #dc3545;
 $danger: #20c997;
-$info: #d63384;
-$secondary: #18cc5d;
+$info: #d4b70e;
+$secondary: #d4b70e;
+
+$terciary-color: white;
 
 $theme-colors: (
-    "primary": $primary,
-    "danger": $danger,
-    "info": $info,
-    "secondary": $secondary
-  );
+  "primary": $primary,
+  "danger": $danger,
+  "info": $info,
+  "secondary": $secondary,
+);
+
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
