@@ -732,6 +732,14 @@ body {
   max-height: 25px;
 }
 
+@media screen and (max-width: 361px) {
+  
+  .auto {
+    margin-left: -10px;
+  }
+
+}
+
 /* Iconos cards de Propiedades */
 
 .recamara_icon {
