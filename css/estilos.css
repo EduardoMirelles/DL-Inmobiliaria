@@ -732,13 +732,30 @@ body {
   max-height: 25px;
 }
 
-@media screen and (max-width: 361px) {
+@media screen and (max-width: 444px) {
   
   .auto {
     margin-left: -10px;
+    font-size: 8px;
   }
 
 }
+
+@media screen and (max-width: 340px) {
+  
+  .auto {
+
+    display: none;
+    
+  }
+
+  .texto_iconos_cards {
+    display: none;
+  }
+
+}
+
+
 
 /* Iconos cards de Propiedades */
 
@@ -1019,4 +1036,25 @@ body {
 .boton_banner {
   display: flex;
   justify-content: center;
+}
+
+.mm {
+  list-style:none;
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.mm li {
+  margin: 5px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Times New Roman', Times, serif;
+  border-style:solid;
+  border-color: rgb(210, 128, 248);
+  padding: 6px 10px;
+  border-radius: 12px;
+  width: 200px;
+  height: 100px;
 }
